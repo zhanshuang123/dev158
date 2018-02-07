@@ -1,4 +1,4 @@
-package zhan6;
+package com.example.servlet;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -9,13 +9,13 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class zhan6
  */
-public class zhan6 extends HttpServlet {
+public class FormServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public zhan6() {
+    public FormServlet() {
         super();
         // TODO Auto-generated constructor stub
     }
